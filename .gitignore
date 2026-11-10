@@ -1,0 +1,17 @@
+# Local Python environment and credentials
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# User data and generated documents
+uploads/
+generated/
+sample_data/
+*.pdf
+*.docx
+*.log
